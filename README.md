@@ -151,6 +151,7 @@ Lalu buka `http://localhost:8000`.
 1. Pengguna membuka halaman aplikasi dan diarahkan ke `auth/login.php` apabila belum login.
 2. Setelah login, `index.php` menentukan tujuan berdasarkan role:
    - `admin` → dashboard administrator.
+   - email : admin@simosis.test pass: Admin123!
    - `siswa` → dashboard siswa atau dashboard pengurus kelas.
    - `osis` → dashboard anggota OSIS atau dashboard bendahara OSIS.
 3. Setiap modul melakukan pemeriksaan autentikasi dan otorisasi sebelum menampilkan data.
